@@ -7,5 +7,7 @@ export function Counter({increment}) {
         console.log('increment has changed')
     },[increment])
 
+    console.log("render child")
+
   return <button onClick={increment}>+</button>
 }
